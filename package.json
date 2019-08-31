@@ -1,0 +1,29 @@
+{
+  "name": "djangoboilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate Django project for quickly getting started",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development --watch ./frontend/src/index.js --output ./frontend/static/frontend/main.js ",
+    "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.5",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}

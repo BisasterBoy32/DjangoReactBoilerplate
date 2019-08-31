@@ -1,0 +1,7 @@
+Django
+django-debug-toolbar
+python-decouple
+pytz
+sqlparse
+django-rest-knox
+djangorestframework
